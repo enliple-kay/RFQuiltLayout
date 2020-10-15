@@ -25,7 +25,7 @@
 		0239B55A168BB0F4008B8AD6 /* RFQuiltLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RFQuiltLayout.h; path = RFQuiltLayout/RFQuiltLayout.h; sourceTree = SOURCE_ROOT; };
 		0239B55B168BB0F4008B8AD6 /* RFQuiltLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RFQuiltLayout.m; path = RFQuiltLayout/RFQuiltLayout.m; sourceTree = SOURCE_ROOT; };
 		026492D516D3628600992E42 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		02E25B02168B74B0009CA089 /* QuiltDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuiltDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02E25B02168B74B0009CA089 /* RFQuiltLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RFQuiltLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02E25B06168B74B0009CA089 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		02E25B08168B74B0009CA089 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		02E25B0E168B74B0009CA089 /* QuiltDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuiltDemo-Info.plist"; sourceTree = "<group>"; };
@@ -68,7 +68,7 @@
 		02E25B03168B74B0009CA089 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				02E25B02168B74B0009CA089 /* QuiltDemo.app */,
+				02E25B02168B74B0009CA089 /* RFQuiltLayout.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,9 +123,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		02E25B01168B74B0009CA089 /* QuiltDemo */ = {
+		02E25B01168B74B0009CA089 /* RFQuiltLayout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 02E25B26168B74B0009CA089 /* Build configuration list for PBXNativeTarget "QuiltDemo" */;
+			buildConfigurationList = 02E25B26168B74B0009CA089 /* Build configuration list for PBXNativeTarget "RFQuiltLayout" */;
 			buildPhases = (
 				02E25AFE168B74B0009CA089 /* Sources */,
 				02E25AFF168B74B0009CA089 /* Frameworks */,
@@ -135,9 +135,9 @@
 			);
 			dependencies = (
 			);
-			name = QuiltDemo;
+			name = RFQuiltLayout;
 			productName = QuiltDemo;
-			productReference = 02E25B02168B74B0009CA089 /* QuiltDemo.app */;
+			productReference = 02E25B02168B74B0009CA089 /* RFQuiltLayout.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -155,6 +155,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 02E25AF7168B74B0009CA089;
@@ -162,7 +163,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				02E25B01168B74B0009CA089 /* QuiltDemo */,
+				02E25B01168B74B0009CA089 /* RFQuiltLayout */,
 			);
 		};
 /* End PBXProject section */
@@ -304,7 +305,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		02E25B26168B74B0009CA089 /* Build configuration list for PBXNativeTarget "QuiltDemo" */ = {
+		02E25B26168B74B0009CA089 /* Build configuration list for PBXNativeTarget "RFQuiltLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				02E25B27168B74B0009CA089 /* Debug */,
